@@ -1,0 +1,7 @@
+Django
+django-cors-headers
+pillow
+PyJWT
+djangorestframework
+djangorestframework-simplejwt
+django-environ

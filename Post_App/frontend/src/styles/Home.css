@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.link {
+	border: 2px solid black;
+	text-decoration: none;
+	color: black;
+	box-shadow: 1px 1px 7px 1px lightgray; /* ohne inset */
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: white;
+	display: inline-block;
+	transition: box-shadow 400ms ease-in-out, color 300ms ease;
+}
+
+.link:hover {
+	box-shadow: 1px 1px 15px 2px black;
+	color: gray;
+}
